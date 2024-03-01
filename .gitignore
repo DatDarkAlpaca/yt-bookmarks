@@ -12,6 +12,9 @@
 *.vcxproj
 *.filters
 
+# Resources:
+res/
+
 # Conan Dependencies:
 [Dd]ependencies/
 
