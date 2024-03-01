@@ -19,10 +19,15 @@ You may also need to add an environment variable to use `premake5`.
 ## Installation
 1. **Clone the repository**
     ```bash
-    git clone https://github.com/DatDarkAlpaca/yt-bookmarks
+    git clone --recurse-submodules https://github.com/DatDarkAlpaca/yt-bookmarks
     ```
-
-2. **Generate the project**
+    
+    If you've cloned the repository without submodules, run the following command:
+    ```bash
+    git submodule init
+    ```
+    
+3. **Generate the project**
     If you're building on a Windows machine, you can use the `build.cmd` file to execute the Python script. 
     This automatically calls premake, so you must specify the project file of your choice.
 
@@ -30,7 +35,7 @@ You may also need to add an environment variable to use `premake5`.
     .\build <action: vs2022, vs2021, gmake, ...>
     ```
 
-3. **Compile the project**
+4. **Compile the project**
    Use the generated project files to build the project. 
    After that, you should have a working copy under `yt-bookmarks/build/bin/{configuration}/sample-project`. 
 
