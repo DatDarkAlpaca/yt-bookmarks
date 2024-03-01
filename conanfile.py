@@ -1,12 +1,12 @@
 from conan import ConanFile
 
 
-class TemplateRecipe(ConanFile):
+class YtBookmarksRecipe(ConanFile):
     settings = 'os', 'compiler', 'build_type', 'arch'
     generators = 'PremakeDeps'
 
     def requirements(self):
-        pass
+        self.requires('nlohmann_json/3.11.3')
 
     def configure(self):
         pass

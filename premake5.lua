@@ -5,13 +5,13 @@ include "dependencies/conandeps.premake5.lua"
 output_path         = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 binaries_path       = "%{wks.location}/build/bin/" .. "%{output_path}"
 intermediate_path   = "%{wks.location}/build/intermediate/" .. "%{output_path}"
+vendor_path         = "%{wks.location}/vendor/"
 
-workspace "template-workspace"
+workspace "yt-bookmarks"
     architecture "x64"
     configurations {
         "Debug",
         "Release"
     }
 
-
-include "sample-project/build.lua"
+include "yt-bookmarks/build.lua"
