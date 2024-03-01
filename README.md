@@ -1,6 +1,6 @@
-# Premake-Conan Template
+# Youtube Bookmarks
 
-> This respository is just a simple Premake5 with Conan C++ template.
+> This is a command line tool that records youtube bookmarks based on URL with timestamps.
 
 # Getting Started
 
@@ -19,7 +19,7 @@ You may also need to add an environment variable to use `premake5`.
 ## Installation
 1. **Clone the repository**
     ```bash
-    git clone https://github.com/DatDarkAlpaca/premake-conan-template
+    git clone https://github.com/DatDarkAlpaca/yt-bookmarks
     ```
 
 2. **Generate the project**
@@ -32,7 +32,7 @@ You may also need to add an environment variable to use `premake5`.
 
 3. **Compile the project**
    Use the generated project files to build the project. 
-   After that, you should have a working copy under `premake-conan-template/build/bin/{configuration}/sample-project`. 
+   After that, you should have a working copy under `yt-bookmarks/build/bin/{configuration}/sample-project`. 
 
 # License
 
