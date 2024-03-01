@@ -1,0 +1,3 @@
+[submodule "vendor/mINI"]
+	path = vendor/mINI
+	url = https://github.com/metayeti/mINI
